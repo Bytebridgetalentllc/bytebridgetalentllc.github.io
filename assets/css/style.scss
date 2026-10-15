@@ -561,3 +561,27 @@ a:hover {
     height: 76px;
   }
 }
+
+@media (min-width: 801px) {
+  .header-inner {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .brand img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .header-inner {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .brand img {
+    width: 260px;
+    height: 260px;
+  }
+}
