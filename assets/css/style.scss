@@ -290,6 +290,11 @@ a:hover {
   flex: 0 0 auto;
 }
 
+.mark-row img:first-child {
+  width: 76px;
+  height: auto;
+}
+
 .company .everify,
 .prose .everify {
   margin: 0 0 1.1rem;
@@ -572,6 +577,11 @@ a:hover {
     width: 220px;
     height: 220px;
   }
+
+  .mark-row img:first-child {
+    width: 220px;
+    height: 220px;
+  }
 }
 
 @media (min-width: 1441px) {
@@ -581,6 +591,11 @@ a:hover {
   }
 
   .brand img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .mark-row img:first-child {
     width: 260px;
     height: 260px;
   }
