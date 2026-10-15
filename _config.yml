@@ -1,0 +1,5 @@
+title: ByteBridge Talent LLC Team Blog
+description: Notes on cloud, DevOps and software engineering from the ByteBridge Talent LLC team.
+theme: minima
+plugins:
+  - jekyll-feed
