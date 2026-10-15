@@ -87,7 +87,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  min-height: 4.5rem;
+  min-height: 8rem;
 }
 
 .brand {
@@ -101,8 +101,8 @@ a:hover {
 }
 
 .brand img {
-  width: 48px;
-  height: 48px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
 }
 
@@ -553,9 +553,11 @@ a:hover {
 
   .header-inner {
     position: relative;
+    min-height: 6rem;
   }
 
-  .brand span {
-    font-size: 0.95rem;
+  .brand img {
+    width: 76px;
+    height: 76px;
   }
 }
