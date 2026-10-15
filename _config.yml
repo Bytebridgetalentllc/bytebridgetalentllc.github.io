@@ -1,5 +1,39 @@
-title: ByteBridge Talent LLC Team Blog
+title: ByteBridge Talent LLC
 description: Notes on cloud, DevOps and software engineering from the ByteBridge Talent LLC team.
-theme: minima
+url: "https://bytebridgetalentllc.github.io"
+baseurl: ""
+logo: /assets/images/bytebridge-logo.png
+lang: en_US
+author:
+  name: ByteBridge Talent LLC
+permalink: /:year/:month/:day/:title:output_ext
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+social:
+  name: ByteBridge Talent LLC
+  links:
+    - https://bytebridgetalent.com
+    - https://dev.to/team_bytebridgetalentllc
+    - https://bytebridgetalentllc.hashnode.dev
+    - https://medium.com/@bytebridgetalentllc
+    - https://www.reddit.com/user/Bytebridgetalentllc/
+    - https://www.quora.com/profile/ByteBridge-Talent-LLC
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: ByteBridge Talent LLC

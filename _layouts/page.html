@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="page">
+  {% if page.organization_schema %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ByteBridge Talent LLC",
+    "url": "https://bytebridgetalent.com",
+    "logo": {{ '/assets/images/bytebridge-logo.png' | absolute_url | jsonify }},
+    "foundingDate": "2025-02",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Grand Island",
+      "addressRegion": "NE",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+  {% endif %}
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

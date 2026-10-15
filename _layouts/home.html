@@ -1,0 +1,109 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-mark">
+      <img src="{{ '/assets/images/bytebridge-logo.png' | relative_url }}" alt="ByteBridge Talent LLC logo" width="120" height="120">
+    </div>
+    <p class="eyebrow">Team blog</p>
+    <h1>Engineering and cloud, in practice.</h1>
+    <p class="lede">Short notes from ByteBridge Talent LLC on cloud infrastructure, DevOps, and the software we build around them.</p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/blog/' | relative_url }}">Read the blog</a>
+      <a class="button button-ghost" href="https://bytebridgetalent.com">bytebridgetalent.com</a>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Services</h2>
+    <p class="section-lead">Engineering support for teams that need people who can design, build, and run software.</p>
+    <div class="cards">
+      <article class="card">
+        <h3>IT staff augmentation</h3>
+        <p>Engineers who join your team and work on the systems you already run.</p>
+      </article>
+      <article class="card">
+        <h3>Cloud and DevOps engineering</h3>
+        <p>People who build and operate cloud infrastructure, delivery pipelines, and the tooling around them.</p>
+      </article>
+      <article class="card">
+        <h3>Software development talent</h3>
+        <p>Developers who design, build, and ship software with your product team.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band band-plain" aria-labelledby="company-heading">
+  <div class="wrap company">
+    {% include company-marks.html %}
+    <h2 id="company-heading">The company</h2>
+    <p>ByteBridge Talent LLC is a technology talent and IT staffing company headquartered in Grand Island, Nebraska. It was founded in February 2025. Sixteen people make up the team.</p>
+    <p>The work is to source engineers, screen them, and place them with the organizations that will employ them. Technical screening is set up around each client's stack, so the review follows the tools and systems that team already runs.</p>
+
+    <h3>What we staff</h3>
+    <p>IT staff augmentation puts engineers onto a team that is already in place. Cloud and DevOps engineering covers CI/CD, infrastructure as code, containers and orchestration, monitoring, and cloud cost and security hygiene. Software development talent covers backend, frontend, and full-stack developers, along with data engineers.</p>
+
+    <h3>How an engagement can run</h3>
+    <p>Contract keeps someone on a defined assignment. Contract-to-hire starts with a few months on contract and then converts to full-time. Direct hire is a full-time placement from the first day.</p>
+
+    <h3>Working with clients directly</h3>
+    <p>ByteBridge Talent LLC contracts with client organizations itself. Medica Health Plans is the anchor direct client. The company is a direct vendor there and has placed 60+ technology professionals over about two years, in software, cloud, and data roles.</p>
+
+    <h3>Company facts</h3>
+    <table class="facts">
+      <tbody>
+        <tr>
+          <th scope="row">Company</th>
+          <td>ByteBridge Talent LLC</td>
+        </tr>
+        <tr>
+          <th scope="row">Business</th>
+          <td>Technology talent and IT staffing</td>
+        </tr>
+        <tr>
+          <th scope="row">Founded</th>
+          <td>February 2025</td>
+        </tr>
+        <tr>
+          <th scope="row">Headquarters</th>
+          <td>Grand Island, Nebraska</td>
+        </tr>
+        <tr>
+          <th scope="row">Team</th>
+          <td>16 people</td>
+        </tr>
+        <tr>
+          <th scope="row">Engagements</th>
+          <td>Contract, contract-to-hire, and direct hire</td>
+        </tr>
+        <tr>
+          <th scope="row">Anchor direct client</th>
+          <td>Medica Health Plans</td>
+        </tr>
+        <tr>
+          <th scope="row">Placements at Medica</th>
+          <td>60+ technology professionals over about two years, in software, cloud, and data roles</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Latest posts</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="more"><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
+  </div>
+</section>
