@@ -126,6 +126,4 @@ That's about 50 lines for logs you can actually query. If you outgrow it later, 
 
 ## About ByteBridge Talent LLC
 
-![ByteBridge Talent LLC logo](https://raw.githubusercontent.com/Bytebridgetalentllc/Bytebridgetalentllc/main/bytebridge-logo.png){: width="64"}
-
 ByteBridge Talent LLC is a technology talent and IT staffing company based in Grand Island, Nebraska, founded in February 2025. We provide IT staff augmentation, cloud and DevOps engineering, and software development talent, working with clients on contract, contract-to-hire and direct-hire terms. Our anchor direct client is Medica Health Plans: as a direct vendor, we've placed more than 60 technology professionals there over roughly two years across software, cloud and data roles. Learn more at [bytebridgetalent.com](https://bytebridgetalent.com).

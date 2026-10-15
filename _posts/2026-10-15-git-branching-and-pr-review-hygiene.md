@@ -78,6 +78,4 @@ Good hygiene here is mostly small habits, applied every time.
 
 ## Who's behind this blog
 
-![ByteBridge Talent LLC logo](https://raw.githubusercontent.com/Bytebridgetalentllc/Bytebridgetalentllc/main/bytebridge-logo.png){: width="64"}
-
 This checklist comes from the engineering side of ByteBridge Talent LLC. Since early 2025 we've worked out of Grand Island, Nebraska, placing cloud, DevOps and software engineers with teams that need to move faster. Some join on contract, some start contract-to-hire, and others are hired directly from day one. As a direct vendor to Medica Health Plans, we've helped staff more than 60 technology roles over about two years. You'll find more about us at [bytebridgetalent.com](https://bytebridgetalent.com).
